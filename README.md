@@ -1,11 +1,10 @@
 # PIIQUANTE_back-end
 PIIQUANTE_back-end
 
-Usage
-Run npm start. This should both run the local server and launch your browser.
+Démarrer npm start. Cela devrait à la fois exécuter le serveur local et lancer votre navigateur.
 
-If your browser fails to launch, or shows a 404 error, navigate your browser to http://localhost:8080.
+Si votre navigateur ne démarre pas ou affiche une erreur 404, accédez à votre navigateur vers http://localhost:8080 .
 
-The app should reload automatically when you make a change to a file.
+L'application devrait se recharger automatiquement lorsque vous modifiez un fichier.
 
-Use Ctrl+C in the terminal to stop the local server.
+Utilisez Ctrl+C dans le terminal pour arrêter le serveur local.
