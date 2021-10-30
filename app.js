@@ -5,13 +5,10 @@ app.disable('x-powered-by')
 const cors = require('cors');
 const path = require('path');
 const helmet = require('helmet');
-// const mongoSanitize = require('express-mongo-sanitize');
 require('dotenv').config();
 const bodyParser = require('body-parser');
 // DOTENV ::::::::::::::::::::::
 const MONGO_ACCESS = process.env.MONGOLAB_URI;
-
-
 
 
 mongoose.connect(MONGO_ACCESS,
@@ -33,7 +30,6 @@ app.use((req, res, next) => {
   next();
 });
 
-// app.use(mongoSanitize());
 app.use(bodyParser.json());
 app.use(cors());
 app.use(express.json());
